@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Luna & Oak — an elegant café for handcrafted coffee, beautiful food and warm moments."
+    >
+
+    <title>Luna & Oak | Café & Bakery</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header class="navbar" id="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            <span class="logo-main">Luna & Oak</span>
+            <span class="logo-sub">CAFÉ & BAKERY</span>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+
+            <button
+                class="nav-reserve"
+                id="navReserveButton"
+                type="button"
+            >
+                Reserve a Table
+            </button>
+
+        </nav>
+
+        <button
+            class="mobile-menu"
+            id="mobileMenu"
+            type="button"
+            aria-label="Open menu"
+            aria-controls="navLinks"
+            aria-expanded="false"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-background">
+
+        <img
+            src="./Images/cafe-hero.jpg"
+            alt="Beautiful Luna and Oak café interior"
+        >
+
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <p class="hero-eyebrow">
+            WELCOME TO LUNA & OAK
+        </p>
+
+        <h1>
+            Where every cup
+            <br>
+            feels like <em>home.</em>
+        </h1>
+
+        <p class="hero-description">
+            Handcrafted coffee, beautiful food and
+            slow moments made to be remembered.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button
+                class="button button-primary"
+                id="heroMenuButton"
+                type="button"
+            >
+                Explore Our Menu
+                <span>→</span>
+            </button>
+
+            <button
+                class="button button-outline"
+                id="heroStoryButton"
+                type="button"
+            >
+                Discover Our Story
+            </button>
+
+        </div>
+
+        <div class="hero-rating">
+
+            <span class="stars">★★★★★</span>
+
+            <span>
+                4.8/5 · 500+ happy guests
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+
+        <span>SCROLL TO EXPLORE</span>
+
+        <div class="scroll-line"></div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     STORY
+========================================================= -->
+
+<section class="story-section section" id="story">
+
+    <div class="section-container story-grid">
+
+        <div class="story-image reveal">
+
+            <div class="image-frame">
+
+                <img
+                    src="./Images/cafe-window.jpg"
+                    alt="Cozy Luna and Oak café window"
+                >
+
+            </div>
+
+            <div class="image-label">
+                EST. 2024
+            </div>
+
+        </div>
+
+
+        <div class="story-content reveal">
+
+            <p class="section-eyebrow">
+                OUR STORY
+            </p>
+
+            <h2>
+                A little place
+                <br>
+                to <em>slow down.</em>
+            </h2>
+
+            <p>
+                Luna & Oak was created from a simple idea:
+                life feels a little better when we slow down,
+                enjoy something delicious and spend time with
+                the people around us.
+            </p>
+
+            <p>
+                From our carefully brewed coffee to our
+                freshly prepared plates, every little detail
+                is made with warmth, creativity and care.
+            </p>
+
+            <button
+                class="text-button"
+                id="storyButton"
+                type="button"
+            >
+                Discover our story
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     MENU
+========================================================= -->
+
+<section class="menu-section section" id="menu">
+
+    <div class="section-container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-eyebrow">
+                OUR MENU
+            </p>
+
+            <h2>
+                Made with love.
+                <br>
+                <em>Served with warmth.</em>
+            </h2>
+
+            <p>
+                Simple ingredients. Beautiful flavours.
+                A little something for every mood.
+            </p>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+
+            <!-- CARD 1 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-cappuccino.jpg"
+                        alt="Classic cappuccino"
+                    >
+
+                    <span class="menu-tag">
+                        COFFEE
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Classic Cappuccino
+                        </h3>
+
+                        <span class="price">
+                            ₹180
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Rich espresso finished with silky
+                        steamed milk and foam.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 2 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-latte.jpg"
+                        alt="Creamy café latte"
+                    >
+
+                    <span class="menu-tag">
+                        COFFEE
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Velvet Latte
+                        </h3>
+
+                        <span class="price">
+                            ₹210
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Smooth espresso with velvety
+                        steamed milk.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 3 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-avocado-toast.jpg"
+                        alt="Fresh avocado toast"
+                    >
+
+                    <span class="menu-tag">
+                        BREAKFAST
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Avocado Toast
+                        </h3>
+
+                        <span class="price">
+                            ₹260
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Creamy avocado, toasted sourdough
+                        and fresh herbs.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 4 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-pancakes.jpg"
+                        alt="Stack of morning pancakes"
+                    >
+
+                    <span class="menu-tag">
+                        BREAKFAST
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Morning Pancakes
+                        </h3>
+
+                        <span class="price">
+                            ₹240
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Fluffy pancakes served with maple
+                        syrup and fresh berries.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 5 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-croissant.jpg"
+                        alt="Fresh butter croissant"
+                    >
+
+                    <span class="menu-tag">
+                        BAKERY
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Butter Croissant
+                        </h3>
+
+                        <span class="price">
+                            ₹150
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Golden, flaky and freshly baked
+                        every morning.
+                    </p>
+
+                </div>
+
+            </article>
+
+
+            <!-- CARD 6 -->
+
+            <article class="menu-card reveal">
+
+                <div class="menu-image">
+
+                    <img
+                        src="./Images/cafe-cinnamon-roll.jpg"
+                        alt="Fresh cinnamon roll"
+                    >
+
+                    <span class="menu-tag">
+                        BAKERY
+                    </span>
+
+                    <span class="card-arrow">
+                        ↗
+                    </span>
+
+                </div>
+
+                <div class="menu-card-content">
+
+                    <div class="menu-title-row">
+
+                        <h3>
+                            Cinnamon Roll
+                        </h3>
+
+                        <span class="price">
+                            ₹190
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Soft cinnamon pastry with delicate
+                        vanilla glaze.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+
+        <div class="menu-action reveal">
+
+            <button
+                class="button button-maroon"
+                id="fullMenuButton"
+                type="button"
+            >
+                View Full Menu
+                <span>→</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FEATURE EXPERIENCE
+========================================================= -->
+
+<section class="feature-section">
+
+    <div class="feature-image">
+
+        <img
+            src="./Images/cafe-coffee-bar.jpg"
+            alt="Luna and Oak coffee bar"
+        >
+
+    </div>
+
+    <div class="feature-overlay"></div>
+
+    <div class="feature-content reveal">
+
+        <p class="section-eyebrow">
+            THE LUNA & OAK EXPERIENCE
+        </p>
+
+        <h2>
+            Come for the coffee.
+            <br>
+            <em>Stay for the feeling.</em>
+        </h2>
+
+        <p>
+            A warm corner, a beautiful cup of coffee,
+            good food and nowhere else you need to be.
+        </p>
+
+        <button
+            class="button button-light"
+            id="featureReserveButton"
+            type="button"
+        >
+            Find Your Table
+            <span>→</span>
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     GALLERY
+========================================================= -->
+
+<section class="gallery-section section" id="gallery">
+
+    <div class="section-container">
+
+        <div class="section-heading center reveal">
+
+            <p class="section-eyebrow">
+                A GLIMPSE INSIDE
+            </p>
+
+            <h2>
+                Moments at
+                <em>Luna & Oak</em>
+            </h2>
+
+            <p>
+                A few little moments from our favourite place.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-large reveal">
+
+                <img
+                    src="./Images/cafe-interior.jpg"
+                    alt="Luna and Oak café interior"
+                >
+
+                <div class="gallery-caption">
+                    The heart of Luna & Oak
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="./Images/cafe-barista.jpg"
+                    alt="Barista preparing coffee"
+                >
+
+                <div class="gallery-caption">
+                    Crafted with care
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="./Images/cafe-seating.jpg"
+                    alt="Cozy café seating"
+                >
+
+                <div class="gallery-caption">
+                    Your favourite corner
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="./Images/cafe-window.jpg"
+                    alt="Warm café window"
+                >
+
+                <div class="gallery-caption">
+                    Slow mornings
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="./Images/cafe-coffee-bar.jpg"
+                    alt="Coffee bar"
+                >
+
+                <div class="gallery-caption">
+                    Good coffee
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     REVIEWS
+========================================================= -->
+
+<section class="reviews-section section" id="reviews">
+
+    <div class="section-container">
+
+        <div class="section-heading center reveal">
+
+            <p class="section-eyebrow">
+                KIND WORDS
+            </p>
+
+            <h2>
+                Loved by our
+                <em>guests.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="reviews-grid">
+
+
+            <article class="review-card reveal">
+
+                <div class="quote-mark">
+                    “
+                </div>
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    The atmosphere is absolutely beautiful.
+                    The coffee was amazing and the staff were
+                    so warm and welcoming.
+                </p>
+
+                <div class="review-person">
+
+                    <strong>
+                        Ananya R.
+                    </strong>
+
+                    <span>
+                        Bengaluru
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="review-card reveal">
+
+                <div class="quote-mark">
+                    “
+                </div>
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Such a peaceful little café. Perfect for
+                    a slow morning and the pancakes were
+                    delicious.
+                </p>
+
+                <div class="review-person">
+
+                    <strong>
+                        Rahul M.
+                    </strong>
+
+                    <span>
+                        Bengaluru
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <article class="review-card reveal">
+
+                <div class="quote-mark">
+                    “
+                </div>
+
+                <div class="review-stars">
+                    ★★★★★
+                </div>
+
+                <p>
+                    Beautiful interiors, great coffee and
+                    genuinely lovely food. I will definitely
+                    be coming back.
+                </p>
+
+                <div class="review-person">
+
+                    <strong>
+                        Priya S.
+                    </strong>
+
+                    <span>
+                        Bengaluru
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     RESERVATION
+========================================================= -->
+
+<section
+    class="reservation-section section"
+    id="reservation"
+>
+
+    <div class="section-container reservation-grid">
+
+
+        <div class="reservation-info reveal">
+
+            <p class="section-eyebrow">
+                COME SAY HELLO
+            </p>
+
+            <h2>
+                Your table
+                <br>
+                is <em>waiting.</em>
+            </h2>
+
+            <p>
+                Whether it is your first visit or your
+                favourite corner of the week, we would
+                love to have you with us.
+            </p>
+
+
+            <div class="contact-details">
+
+
+                <div class="contact-detail">
+
+                    <span class="detail-icon">
+                        📍
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Visit Us
+                        </strong>
+
+                        <p>
+                            123 Oak Street
+                            <br>
+                            Bengaluru, Karnataka, India
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span class="detail-icon">
+                        🕐
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Opening Hours
+                        </strong>
+
+                        <p>
+                            Monday – Sunday
+                            <br>
+                            8:00 AM – 10:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-detail">
+
+                    <span class="detail-icon">
+                        📞
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Call Us
+                        </strong>
+
+                        <p>
+                            +91 98765 43210
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="reservation-card reveal">
+
+            <div class="reservation-heading">
+
+                <p class="section-eyebrow">
+                    RESERVATIONS
+                </p>
+
+                <h3>
+                    Reserve your table
+                </h3>
+
+                <p>
+                    Tell us when you would like to visit.
+                </p>
+
+            </div>
+
+
+            <form id="reservationForm">
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="guestName">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="guestName"
+                            name="guestName"
+                            placeholder="Your name"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="guestPhone">
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="guestPhone"
+                            name="guestPhone"
+                            placeholder="+91"
+                            autocomplete="tel"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="reservationDate">
+                            Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="reservationDate"
+                            name="reservationDate"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="reservationTime">
+                            Time
+                        </label>
+
+                        <select
+                            id="reservationTime"
+                            name="reservationTime"
+                            required
+                        >
+
+                            <option value="">
+                                Select time
+                            </option>
+
+                            <option value="8:00 AM">8:00 AM</option>
+                            <option value="9:00 AM">9:00 AM</option>
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:00 AM">11:00 AM</option>
+                            <option value="12:00 PM">12:00 PM</option>
+                            <option value="1:00 PM">1:00 PM</option>
+                            <option value="2:00 PM">2:00 PM</option>
+                            <option value="3:00 PM">3:00 PM</option>
+                            <option value="4:00 PM">4:00 PM</option>
+                            <option value="5:00 PM">5:00 PM</option>
+                            <option value="6:00 PM">6:00 PM</option>
+                            <option value="7:00 PM">7:00 PM</option>
+                            <option value="8:00 PM">8:00 PM</option>
+                            <option value="9:00 PM">9:00 PM</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="guestCount">
+                        Number of Guests
+                    </label>
+
+                    <select
+                        id="guestCount"
+                        name="guestCount"
+                        required
+                    >
+
+                        <option value="">
+                            Select guests
+                        </option>
+
+                        <option value="1 Guest">
+                            1 Guest
+                        </option>
+
+                        <option value="2 Guests">
+                            2 Guests
+                        </option>
+
+                        <option value="3 Guests">
+                            3 Guests
+                        </option>
+
+                        <option value="4 Guests">
+                            4 Guests
+                        </option>
+
+                        <option value="5 Guests">
+                            5 Guests
+                        </option>
+
+                        <option value="6+ Guests">
+                            6+ Guests
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="reservationMessage">
+                        Special Request
+                    </label>
+
+                    <textarea
+                        id="reservationMessage"
+                        name="reservationMessage"
+                        rows="4"
+                        placeholder="Any special request?"
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="button button-maroon form-submit"
+                >
+                    Request Reservation
+                    <span>→</span>
+                </button>
+
+
+                <p
+                    class="form-message"
+                    id="reservationMessageBox"
+                    aria-live="polite"
+                ></p>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     LOCATION
+========================================================= -->
+
+<section class="location-section">
+
+    <div class="location-map">
+
+        <iframe
+            src="https://www.google.com/maps?q=Bengaluru,Karnataka,India&output=embed"
+            loading="lazy"
+            title="Luna and Oak location map"
+        ></iframe>
+
+    </div>
+
+
+    <div class="location-content reveal">
+
+        <p class="section-eyebrow">
+            FIND US
+        </p>
+
+        <h2>
+            Come find
+            <br>
+            <em>your corner.</em>
+        </h2>
+
+        <p>
+            123 Oak Street
+            <br>
+            Bengaluru, Karnataka
+            <br>
+            India
+        </p>
+
+        <p>
+            Open daily · 8:00 AM – 10:00 PM
+        </p>
+
+        <a
+            href="https://www.google.com/maps/search/?api=1&query=Bengaluru,Karnataka,India"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button button-light"
+        >
+            Open in Google Maps
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT
+========================================================= -->
+
+<section
+    class="contact-section section"
+    id="contact"
+>
+
+    <div class="section-container">
+
+        <div class="contact-main reveal">
+
+            <p class="section-eyebrow">
+                LET'S CONNECT
+            </p>
+
+            <h2>
+                We'd love to
+                <br>
+                <em>hear from you.</em>
+            </h2>
+
+            <p>
+                Questions, celebrations or just want to
+                say hello? Reach out anytime.
+            </p>
+
+
+            <div class="contact-actions">
+
+                <a
+                    href="tel:+919876543210"
+                    class="contact-link"
+                >
+                    <span>📞</span>
+                    +91 98765 43210
+                </a>
+
+                <a
+                    href="mailto:hello@lunaandoak.com"
+                    class="contact-link"
+                >
+                    <span>✉</span>
+                    hello@lunaandoak.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-brand">
+
+            <a
+                href="#home"
+                class="logo footer-logo"
+            >
+
+                <span class="logo-main">
+                    Luna & Oak
+                </span>
+
+                <span class="logo-sub">
+                    CAFÉ & BAKERY
+                </span>
+
+            </a>
+
+            <p>
+                Slow mornings. Good coffee.
+                Beautiful moments.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#story">
+                Our Story
+            </a>
+
+            <a href="#menu">
+                Menu
+            </a>
+
+            <a href="#gallery">
+                Gallery
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Visit
+            </h4>
+
+            <span>
+                123 Oak Street
+            </span>
+
+            <span>
+                Bengaluru, Karnataka
+            </span>
+
+            <span>
+                8 AM – 10 PM
+            </span>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>
+                Contact
+            </h4>
+
+            <a href="tel:+919876543210">
+                +91 98765 43210
+            </a>
+
+            <a href="mailto:hello@lunaandoak.com">
+                hello@lunaandoak.com
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Luna & Oak. All rights reserved.
+        </p>
+
+        <p>
+            Crafted with warmth ☕
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     FULL MENU MODAL
+========================================================= -->
+
+<div
+    class="modal"
+    id="menuModal"
+    aria-hidden="true"
+>
+
+    <div class="modal-backdrop"></div>
+
+
+    <div
+        class="modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="menuModalTitle"
+    >
+
+        <button
+            class="modal-close"
+            id="closeMenuModal"
+            type="button"
+            aria-label="Close menu"
+        >
+            ×
+        </button>
+
+
+        <div class="modal-header">
+
+            <p class="section-eyebrow">
+                LUNA & OAK
+            </p>
+
+            <h2 id="menuModalTitle">
+                Our Full Menu
+            </h2>
+
+            <p>
+                Crafted with care. Served with warmth.
+            </p>
+
+        </div>
+
+
+        <div class="full-menu-grid">
+
+
+            <div class="full-menu-category">
+
+                <h3>
+                    ☕ Coffee & Drinks
+                </h3>
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Classic Cappuccino
+                        </strong>
+
+                        <span>
+                            Rich espresso and silky milk foam
+                        </span>
+                    </div>
+
+                    <b>₹180</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Velvet Latte
+                        </strong>
+
+                        <span>
+                            Smooth espresso and steamed milk
+                        </span>
+                    </div>
+
+                    <b>₹210</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Vanilla Cold Coffee
+                        </strong>
+
+                        <span>
+                            Chilled coffee with vanilla
+                        </span>
+                    </div>
+
+                    <b>₹240</b>
+
+                </div>
+
+            </div>
+
+
+            <div class="full-menu-category">
+
+                <h3>
+                    🥐 Breakfast & Bakery
+                </h3>
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Butter Croissant
+                        </strong>
+
+                        <span>
+                            Freshly baked and flaky
+                        </span>
+                    </div>
+
+                    <b>₹150</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Avocado Toast
+                        </strong>
+
+                        <span>
+                            Sourdough, avocado and herbs
+                        </span>
+                    </div>
+
+                    <b>₹260</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Cinnamon Roll
+                        </strong>
+
+                        <span>
+                            Soft cinnamon pastry with glaze
+                        </span>
+                    </div>
+
+                    <b>₹190</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Morning Pancakes
+                        </strong>
+
+                        <span>
+                            Fluffy pancakes and maple syrup
+                        </span>
+                    </div>
+
+                    <b>₹240</b>
+
+                </div>
+
+            </div>
+
+
+            <div class="full-menu-category">
+
+                <h3>
+                    🍰 Desserts
+                </h3>
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Chocolate Cake
+                        </strong>
+
+                        <span>
+                            Rich chocolate and smooth ganache
+                        </span>
+                    </div>
+
+                    <b>₹220</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Tiramisu
+                        </strong>
+
+                        <span>
+                            Espresso, mascarpone and cocoa
+                        </span>
+                    </div>
+
+                    <b>₹280</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Classic Cheesecake
+                        </strong>
+
+                        <span>
+                            Creamy cheesecake with berry topping
+                        </span>
+                    </div>
+
+                    <b>₹250</b>
+
+                </div>
+
+            </div>
+
+
+            <div class="full-menu-category">
+
+                <h3>
+                    🥗 Fresh Favourites
+                </h3>
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Grilled Veggie Bowl
+                        </strong>
+
+                        <span>
+                            Fresh vegetables and house dressing
+                        </span>
+                    </div>
+
+                    <b>₹310</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Garden Fresh Salad
+                        </strong>
+
+                        <span>
+                            Crisp greens and seasonal vegetables
+                        </span>
+                    </div>
+
+                    <b>₹220</b>
+
+                </div>
+
+
+                <div class="full-menu-item">
+
+                    <div>
+                        <strong>
+                            Caesar Salad
+                        </strong>
+
+                        <span>
+                            Lettuce, parmesan and creamy dressing
+                        </span>
+                    </div>
+
+                    <b>₹260</b>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="modal-footer">
+            Freshly prepared · Made with care
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     SUCCESS MODAL
+========================================================= -->
+
+<div
+    class="modal"
+    id="successModal"
+    aria-hidden="true"
+>
+
+    <div class="modal-backdrop"></div>
+
+
+    <div
+        class="success-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="successModalTitle"
+    >
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <p class="section-eyebrow">
+            LUNA & OAK
+        </p>
+
+        <h2 id="successModalTitle">
+            Request received.
+        </h2>
+
+        <p>
+            Thank you for choosing Luna & Oak.
+            Your reservation request has been received.
+        </p>
+
+        <button
+            class="button button-maroon"
+            id="closeSuccessModal"
+            type="button"
+        >
+            Beautiful
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
