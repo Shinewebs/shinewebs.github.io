@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Bella Vista Italian Kitchen - Authentic Italian cuisine, warm hospitality and unforgettable dining."
+    >
+
+    <title>Bella Vista Italian Kitchen</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-main">Bella Vista</span>
+                <span class="logo-sub">ITALIAN KITCHEN</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu"
+            >
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home">Home</a>
+
+                <a href="#menu">Menu</a>
+
+                <a href="#our-kitchen">Our Kitchen</a>
+
+                <a href="#interior">Our Space</a>
+
+                <a href="#about">About</a>
+
+                <a href="#reviews">Reviews</a>
+
+                <a href="#contact">Contact</a>
+
+                <a
+                    href="#reservation"
+                    class="nav-reserve"
+                >
+                    Reserve
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <div class="hero-label">
+                    AUTENTICA CUCINA ITALIANA
+                </div>
+
+                <h1>
+                    A Taste of
+                    <span>Italy</span>
+                </h1>
+
+                <p>
+                    Handcrafted Italian dishes, warm hospitality
+                    and the feeling of being transported straight
+                    to the heart of Italy.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#menu"
+                        class="btn btn-primary"
+                    >
+                        Explore Our Menu
+                    </a>
+
+                    <a
+                        href="#reservation"
+                        class="btn btn-outline"
+                    >
+                        Reserve a Table
+                    </a>
+
+                </div>
+
+                <div class="hero-note">
+                    <span>✦</span>
+                    Fresh ingredients · Handmade with love
+                </div>
+
+            </div>
+
+
+            <div class="hero-image">
+
+                <div class="hero-image-frame">
+
+                    <img
+                        src="images/bella-vista-pizza.jpg"
+                        alt="Fresh Italian pizza at Bella Vista"
+                    >
+
+                </div>
+
+                <div class="hero-image-caption">
+
+                    <strong>Freshly prepared</strong>
+
+                    <span>
+                        Every dish, every day
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             QUICK INFO
+        ========================================== -->
+
+        <section class="quick-info">
+
+            <div class="quick-info-container">
+
+                <div class="quick-item">
+
+                    <div class="quick-icon">
+                        🕐
+                    </div>
+
+                    <div>
+                        <span>OPENING HOURS</span>
+                        <strong>11 AM – 11 PM</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="quick-item">
+
+                    <div class="quick-icon">
+                        📍
+                    </div>
+
+                    <div>
+                        <span>OUR LOCATION</span>
+                        <strong>New York, NY</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="quick-item">
+
+                    <div class="quick-icon">
+                        ⭐
+                    </div>
+
+                    <div>
+                        <span>GUEST RATING</span>
+                        <strong>4.9 / 5</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             MENU
+        ========================================== -->
+
+        <section class="menu-section" id="menu">
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    IL NOSTRO MENU
+                </div>
+
+                <h2>
+                    Made with Passion,
+                    <span>Served with Love</span>
+                </h2>
+
+                <p>
+                    Discover our selection of traditional Italian
+                    favorites prepared with fresh ingredients
+                    and authentic recipes.
+                </p>
+
+            </div>
+
+
+            <!-- MENU FILTERS -->
+
+            <div class="menu-filters">
+
+                <button
+                    class="menu-filter active"
+                    data-category="all"
+                >
+                    All
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="starter"
+                >
+                    Starters
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="pizza"
+                >
+                    Pizza
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="pasta"
+                >
+                    Pasta
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="salad"
+                >
+                    Salads
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="dessert"
+                >
+                    Desserts
+                </button>
+
+                <button
+                    class="menu-filter"
+                    data-category="drink"
+                >
+                    Drinks
+                </button>
+
+            </div>
+
+
+            <!-- MENU GRID -->
+
+            <div class="menu-grid">
+
+
+                <!-- STARTER -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="starter"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-bruschetta.jpg"
+                            alt="Classic Italian bruschetta"
+                        >
+
+                        <span class="menu-tag">
+                            STARTER
+                        </span>
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Classic Bruschetta
+                            </h3>
+
+                            <span>$9</span>
+
+                        </div>
+
+                        <p>
+                            Toasted bread, tomatoes,
+                            basil, garlic and extra virgin
+                            olive oil.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PIZZA -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="pizza"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-pizza.jpg"
+                            alt="Bella Vista Italian pizza"
+                        >
+
+                        <span class="menu-tag">
+                            SIGNATURE
+                        </span>
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Bella Vista Pizza
+                            </h3>
+
+                            <span>$16</span>
+
+                        </div>
+
+                        <p>
+                            Stone-baked pizza with
+                            mozzarella, tomato, basil
+                            and our signature sauce.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PIZZA -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="pizza"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-margherita.jpg"
+                            alt="Traditional Margherita pizza"
+                        >
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Margherita Special
+                            </h3>
+
+                            <span>$15</span>
+
+                        </div>
+
+                        <p>
+                            San Marzano tomatoes,
+                            fresh mozzarella and
+                            fragrant basil.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PASTA -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="pasta"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-truffle-pasta.jpg"
+                            alt="Creamy Italian truffle pasta"
+                        >
+
+                        <span class="menu-tag">
+                            CHEF'S PICK
+                        </span>
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Truffle Pasta
+                            </h3>
+
+                            <span>$22</span>
+
+                        </div>
+
+                        <p>
+                            Handmade pasta tossed with
+                            creamy parmesan sauce and
+                            aromatic truffle.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PASTA -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="pasta"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-alfredo.jpg"
+                            alt="Creamy Alfredo Italian pasta"
+                        >
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Creamy Alfredo
+                            </h3>
+
+                            <span>$19</span>
+
+                        </div>
+
+                        <p>
+                            Silky parmesan cream sauce
+                            with freshly prepared pasta.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SALAD -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="salad"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-salad.jpg"
+                            alt="Fresh Italian garden salad"
+                        >
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Italian Garden Salad
+                            </h3>
+
+                            <span>$13</span>
+
+                        </div>
+
+                        <p>
+                            Crisp greens, tomatoes,
+                            olives, parmesan and
+                            house dressing.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DESSERT -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="dessert"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-dessert.jpg"
+                            alt="Italian tiramisu dessert"
+                        >
+
+                        <span class="menu-tag">
+                            FAVORITE
+                        </span>
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Signature Tiramisu
+                            </h3>
+
+                            <span>$10</span>
+
+                        </div>
+
+                        <p>
+                            Classic Italian tiramisu
+                            layered with mascarpone,
+                            coffee and cocoa.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- DRINK -->
+
+                <article
+                    class="menu-card reveal"
+                    data-category="drink"
+                >
+
+                    <div class="menu-image">
+
+                        <img
+                            src="images/bella-vista-lemonade.jpg"
+                            alt="Fresh Italian lemonade"
+                        >
+
+                    </div>
+
+                    <div class="menu-card-content">
+
+                        <div class="menu-card-title">
+
+                            <h3>
+                                Italian Lemonade
+                            </h3>
+
+                            <span>$6</span>
+
+                        </div>
+
+                        <p>
+                            Freshly squeezed lemon,
+                            sparkling water and a
+                            touch of sweetness.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CHEF STORY
+        ========================================== -->
+
+        <section
+            class="story-section"
+            id="our-kitchen"
+        >
+
+            <div class="story-container">
+
+
+                <div class="story-image reveal-left">
+
+                    <img
+                        src="images/bella-vista-chef.jpg"
+                        alt="Italian chef preparing fresh food"
+                    >
+
+                    <div class="story-image-badge">
+
+                        <strong>15+</strong>
+
+                        <span>
+                            Years of Italian
+                            cooking
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-content reveal-right">
+
+                    <div class="eyebrow">
+                        FROM OUR KITCHEN
+                    </div>
+
+                    <h2>
+                        Where Every Dish
+                        <span>
+                            Tells a Story
+                        </span>
+                    </h2>
+
+                    <p>
+                        At Bella Vista, we believe great food
+                        begins with great ingredients and a
+                        little bit of love.
+                    </p>
+
+                    <p>
+                        Our kitchen brings together traditional
+                        Italian recipes, fresh seasonal produce
+                        and modern presentation to create a
+                        dining experience that feels both
+                        authentic and unforgettable.
+                    </p>
+
+
+                    <div class="story-details">
+
+                        <div>
+                            <strong>
+                                ✦ Fresh Ingredients
+                            </strong>
+
+                            <span>
+                                Selected every morning
+                            </span>
+                        </div>
+
+                        <div>
+                            <strong>
+                                ✦ Handmade Pasta
+                            </strong>
+
+                            <span>
+                                Prepared fresh in our kitchen
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             INTERIOR
+        ========================================== -->
+
+        <section
+            class="interior-section"
+            id="interior"
+        >
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    BENVENUTI A BELLA VISTA
+                </div>
+
+                <h2>
+                    Step Into
+                    <span>Italy</span>
+                </h2>
+
+                <p>
+                    A warm, rustic space inspired by
+                    traditional Italian kitchens and
+                    family dining rooms.
+                </p>
+
+            </div>
+
+
+            <div class="interior-grid">
+
+
+                <div class="interior-main reveal">
+
+                    <img
+                        src="images/bella-vista-interior-main.jpg"
+                        alt="Authentic Italian restaurant interior"
+                    >
+
+                    <div class="interior-overlay">
+
+                        <span>
+                            THE DINING ROOM
+                        </span>
+
+                        <h3>
+                            Warm. Rustic. Italian.
+                        </h3>
+
+                    </div>
+
+                </div>
+
+
+                <div class="interior-small reveal">
+
+                    <img
+                        src="images/bella-vista-kitchen.jpg"
+                        alt="Authentic Italian kitchen"
+                    >
+
+                    <div class="interior-small-label">
+                        Our Kitchen
+                    </div>
+
+                </div>
+
+
+                <div class="interior-small reveal">
+
+                    <img
+                        src="images/bella-vista-dining.jpg"
+                        alt="Elegant Italian dining area"
+                    >
+
+                    <div class="interior-small-label">
+                        Family Dining
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             GALLERY
+        ========================================== -->
+
+        <section class="gallery-section">
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    UNA PICCOLA ANTEPRIMA
+                </div>
+
+                <h2>
+                    A Glimpse of
+                    <span>Bella Vista</span>
+                </h2>
+
+            </div>
+
+
+            <div class="gallery-grid">
+
+                <div class="gallery-item reveal">
+
+                    <img
+                        src="images/bella-vista-pizza.jpg"
+                        alt="Bella Vista pizza"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item reveal">
+
+                    <img
+                        src="images/bella-vista-truffle-pasta.jpg"
+                        alt="Italian truffle pasta"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item gallery-tall reveal">
+
+                    <img
+                        src="images/bella-vista-dining.jpg"
+                        alt="Bella Vista dining room"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item reveal">
+
+                    <img
+                        src="images/bella-vista-salad.jpg"
+                        alt="Italian garden salad"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item reveal">
+
+                    <img
+                        src="images/bella-vista-dessert.jpg"
+                        alt="Italian dessert"
+                    >
+
+                </div>
+
+
+                <div class="gallery-item reveal">
+
+                    <img
+                        src="images/bella-vista-kitchen.jpg"
+                        alt="Bella Vista kitchen"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             ABOUT
+        ========================================== -->
+
+        <section
+            class="about-section"
+            id="about"
+        >
+
+            <div class="about-container">
+
+                <div class="about-content reveal-left">
+
+                    <div class="eyebrow">
+                        LA NOSTRA STORIA
+                    </div>
+
+                    <h2>
+                        More Than
+                        <span>Just a Restaurant</span>
+                    </h2>
+
+                    <p>
+                        Bella Vista Italian Kitchen was created
+                        around a simple idea — bring people
+                        together around delicious food.
+                    </p>
+
+                    <p>
+                        From our handmade pasta to our warm
+                        dining room, every detail is designed
+                        to make you feel at home.
+                    </p>
+
+                    <div class="about-signature">
+                        Bella Vista
+                    </div>
+
+                </div>
+
+
+                <div class="about-image reveal-right">
+
+                    <img
+                        src="images/bella-vista-dining.jpg"
+                        alt="Bella Vista Italian dining experience"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             REVIEWS
+        ========================================== -->
+
+        <section
+            class="reviews-section"
+            id="reviews"
+        >
+
+            <div class="section-heading">
+
+                <div class="eyebrow">
+                    PAROLE DEI NOSTRI OSPITI
+                </div>
+
+                <h2>
+                    Loved By Our
+                    <span>Guests</span>
+                </h2>
+
+            </div>
+
+
+            <div class="reviews-grid">
+
+
+                <article class="review-card reveal">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “The pasta was absolutely delicious
+                        and the atmosphere felt so warm and
+                        authentic. We will definitely come back!”
+                    </p>
+
+                    <strong>
+                        Sophia M.
+                    </strong>
+
+                    <span>
+                        New York, NY
+                    </span>
+
+                </article>
+
+
+                <article class="review-card reveal">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “Beautiful restaurant, friendly service
+                        and amazing pizza. Everything felt fresh
+                        and beautifully prepared.”
+                    </p>
+
+                    <strong>
+                        Daniel R.
+                    </strong>
+
+                    <span>
+                        New York, NY
+                    </span>
+
+                </article>
+
+
+                <article class="review-card reveal">
+
+                    <div class="review-stars">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        “A lovely place for dinner. The tiramisu
+                        was incredible and the interior is
+                        gorgeous.”
+                    </p>
+
+                    <strong>
+                        Olivia K.
+                    </strong>
+
+                    <span>
+                        New York, NY
+                    </span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             RESERVATION
+        ========================================== -->
+
+        <section
+            class="reservation-section"
+            id="reservation"
+        >
+
+            <div class="reservation-container">
+
+
+                <div class="reservation-heading">
+
+                    <div class="eyebrow">
+                        PRENOTA IL TUO TAVOLO
+                    </div>
+
+                    <h2>
+                        Reserve Your
+                        <span>Table</span>
+                    </h2>
+
+                    <p>
+                        Planning a special evening?
+                        Reserve your table and let us
+                        take care of the rest.
+                    </p>
+
+                </div>
+
+
+                <form
+                    class="reservation-form"
+                    id="reservationForm"
+                >
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="date">
+                                Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="time">
+                                Time
+                            </label>
+
+                            <select
+                                id="time"
+                                name="time"
+                                required
+                            >
+
+                                <option value="">
+                                    Select time
+                                </option>
+
+                                <option>
+                                    11:30 AM
+                                </option>
+
+                                <option>
+                                    12:30 PM
+                                </option>
+
+                                <option>
+                                    1:30 PM
+                                </option>
+
+                                <option>
+                                    5:30 PM
+                                </option>
+
+                                <option>
+                                    6:30 PM
+                                </option>
+
+                                <option>
+                                    7:30 PM
+                                </option>
+
+                                <option>
+                                    8:30 PM
+                                </option>
+
+                                <option>
+                                    9:30 PM
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="guests">
+                                Guests
+                            </label>
+
+                            <select
+                                id="guests"
+                                name="guests"
+                                required
+                            >
+
+                                <option value="">
+                                    Number of guests
+                                </option>
+
+                                <option>
+                                    1 Guest
+                                </option>
+
+                                <option>
+                                    2 Guests
+                                </option>
+
+                                <option>
+                                    3 Guests
+                                </option>
+
+                                <option>
+                                    4 Guests
+                                </option>
+
+                                <option>
+                                    5 Guests
+                                </option>
+
+                                <option>
+                                    6 Guests
+                                </option>
+
+                                <option>
+                                    7+ Guests
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+1 (555) 000-0000"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="request">
+                            Special Request
+                        </label>
+
+                        <textarea
+                            id="request"
+                            name="request"
+                            rows="4"
+                            placeholder="Birthday, anniversary, window table..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="reservation-submit"
+                    >
+                        Request Reservation
+                    </button>
+
+
+                    <div
+                        id="formMessage"
+                        class="form-message"
+                    ></div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CONTACT
+        ========================================== -->
+
+        <section
+            class="contact-section"
+            id="contact"
+        >
+
+            <div class="contact-container">
+
+
+                <div class="contact-heading">
+
+                    <div class="eyebrow">
+                        VIENI A TROVARCI
+                    </div>
+
+                    <h2>
+                        Let's Share a
+                        <span>Table</span>
+                    </h2>
+
+                    <p>
+                        We'd love to welcome you to Bella Vista.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-content">
+
+
+                    <div class="contact-details">
+
+
+                        <div class="contact-detail">
+
+                            <div class="contact-icon">
+                                📍
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    ADDRESS
+                                </span>
+
+                                <strong>
+                                    123 Bella Vista Avenue
+                                </strong>
+
+                                <p>
+                                    New York, NY 10001
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <div class="contact-icon">
+                                📞
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    PHONE
+                                </span>
+
+                                <strong>
+                                    +1 (555) 234-5678
+                                </strong>
+
+                                <p>
+                                    Call us anytime during
+                                    opening hours.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <div class="contact-icon">
+                                ✉️
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    EMAIL
+                                </span>
+
+                                <strong>
+                                    hello@bellavista.example
+                                </strong>
+
+                                <p>
+                                    We'd love to hear from you.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="contact-detail">
+
+                            <div class="contact-icon">
+                                🕐
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    OPENING HOURS
+                                </span>
+
+                                <strong>
+                                    Monday – Thursday
+                                </strong>
+
+                                <p>
+                                    11 AM – 10 PM
+                                </p>
+
+                                <strong>
+                                    Friday – Sunday
+                                </strong>
+
+                                <p>
+                                    11 AM – 11 PM
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="map-container">
+
+                        <iframe
+                            src="https://www.google.com/maps?q=Times%20Square,%20New%20York&output=embed"
+                            loading="lazy"
+                            title="Bella Vista location map"
+                        >
+                        </iframe>
+
+                        <div class="map-label">
+                            📍 Bella Vista Italian Kitchen
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         BELLA AI
+    ========================================== -->
+
+    <button
+        class="ai-button"
+        id="aiButton"
+        aria-label="Open Bella AI"
+    >
+        <span>✦</span>
+        Bella AI
+    </button>
+
+
+    <div
+        class="ai-chat"
+        id="aiChat"
+    >
+
+        <div class="ai-header">
+
+            <div>
+
+                <strong>
+                    Bella AI
+                </strong>
+
+                <span>
+                    Your virtual host ✦
+                </span>
+
+            </div>
+
+            <button
+                id="aiClose"
+                aria-label="Close Bella AI"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <div
+            class="ai-messages"
+            id="aiMessages"
+        >
+
+            <div class="ai-message bot">
+
+                👋 Hi! I'm Bella, your virtual host.
+                Ask me about our menu, prices,
+                opening hours or reservations!
+
+            </div>
+
+        </div>
+
+
+        <div class="ai-suggestions">
+
+            <button class="ai-suggestion">
+                🍕 What pizzas do you have?
+            </button>
+
+            <button class="ai-suggestion">
+                🕐 What are your opening hours?
+            </button>
+
+            <button class="ai-suggestion">
+                📍 Where are you located?
+            </button>
+
+        </div>
+
+
+        <form
+            class="ai-form"
+            id="aiForm"
+        >
+
+            <input
+                type="text"
+                id="aiInput"
+                placeholder="Ask Bella something..."
+                autocomplete="off"
+            >
+
+            <button
+                type="submit"
+                aria-label="Send message"
+            >
+                ➤
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- =========================================
+         WHATSAPP
+    ========================================== -->
+
+    <a
+        href="https://wa.me/15552345678"
+        class="whatsapp-button"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat with Bella Vista on WhatsApp"
+    >
+        💬
+    </a>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+                <div class="logo">
+                    <span class="logo-main">
+                        Bella Vista
+                    </span>
+
+                    <span class="logo-sub">
+                        ITALIAN KITCHEN
+                    </span>
+                </div>
+
+                <p>
+                    Authentic Italian flavors,
+                    warm hospitality and unforgettable
+                    moments around the table.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#menu">
+                    Menu
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#reservation">
+                    Reservations
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <span>
+                    Follow us
+                </span>
+
+                <div>
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        Facebook
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Bella Vista Italian Kitchen
+            </span>
+
+            <span>
+                Website concept by <strong>Shiney</strong>.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
